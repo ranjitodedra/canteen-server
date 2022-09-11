@@ -1,0 +1,20 @@
+{
+  "name": "canteen-server",
+  "version": "1.0.0",
+  "description": "Server for canteen application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node checkNodeVersion.js && node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeelkanthTandel/canteen-server.git"
+  },
+  "author": "Neelkanth Tandel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeelkanthTandel/canteen-server/issues"
+  },
+  "homepage": "https://github.com/NeelkanthTandel/canteen-server#readme"
+}
