@@ -1,0 +1,22 @@
+1. login
+
+method: post
+body: {password: string, id: string}
+response: {
+    user: object same as on db without password, (only if user exist)
+    isSignedIn: boolean, (true if user exist else false)
+    isError: boolean, (if any error then true else false)
+    error: string, (error message if any error occurs)
+}
+
+2. register
+
+method:post
+body: {email:string, id:string, name:string}
+//generate random password using user details combination
+response: {
+    user: object same as on db without password,
+    isRegistered: boolean, 
+    isError: boolean,
+    error: string
+}
